@@ -33,7 +33,7 @@ export default function Home() {
           </div>
         </div>
         <img
-          src={require("../assets/mobile_front_mockup.png")}
+          src={require("../assets/mockup.png")}
           alt="Hero"
           class="home__hero"
         />
