@@ -58,11 +58,12 @@ button {
   color: #ffffff;
   text-align: center;
   font-size: 17px;
-  padding: 16px 0;
-  width: 160px;
+  padding: 2rem 0;
+  width: 60%;
+  min-width: 15rem;
   transition: all 0.5s;
   cursor: pointer;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 button span {
@@ -70,6 +71,7 @@ button span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  font-size: 2rem;
 }
 
 button span:after {
@@ -95,4 +97,40 @@ footer {
   letter-spacing: 1px;
   font-weight: 200;
   font-size: 0.6rem;
+}
+
+.alt__container {
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.alt__hero-container {
+  text-align: center;
+  width: 100%;
+}
+
+.alt__hero {
+  width: 80%;
+  height: auto;
+  margin: 3rem 0;
+  max-width: 300px;
+}
+
+.alt__appStore-logo {
+  margin: 1rem;
+}
+
+.alt__demo-container {
+  text-align: center;
+  margin: 3rem;
+}
+.alt__demo-button {
+  margin: 0 auto;
+}
+
+.alt__shots {
+  width: 95%;
+  min-width: 300px;
 }
