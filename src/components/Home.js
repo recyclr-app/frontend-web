@@ -27,7 +27,7 @@ export default function Home() {
             <br />
             <img
               alt="Find it on the app store"
-              src={require("../assets/appstore.png")}
+              src={require("../assets/whiteapplogo.png")}
               className="home__appStore-logo"
             />
           </div>
