@@ -35,6 +35,8 @@ export default function HomeAlt() {
         />
       </div>
       <footer>
+        Coming Soon to the app store.
+        <br />
         <img
           alt="Find it on the app store"
           src={require("../assets/whiteapplogo.png")}
